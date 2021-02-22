@@ -27,20 +27,37 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
 <div class="row">
     <div class="col-md-4">
         <h2>I'm greatful</h2>
         <p>
-           Many thanks for your patience teaching us!
+            Many thanks for your patience teaching us!
         </p>
-        <p><a class="btn btn-primary btn-outline-light" href="https://www.youtube.com/watch?v=N5BP2KlPD4U&ab_channel=OldschoolMusicJunkie">Thank you!</a></p>
+        <p><button type="button" class="btn btn-primary video-btn btn-outline-light" data-toggle="modal" data-src="https://www.youtube.com/embed/N5BP2KlPD4U" data-target="#myModal">
+    Thank you!
+</button></p>
     </div>
     <div class="col-md-4">
     </div>
     <div class="col-md-4">
         <h2>It's been a journey</h2>
         <p>It's only 3 months but it feels way more and we've learned countless things!</p>
-        <p><a class="btn btn-primary btn-outline-light" href="https://www.youtube.com/watch?v=VcjzHMhBtf0&ab_channel=journeyVEVO">Learn more &raquo;</a></p>
     </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wj5VODa-eTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/jquery")

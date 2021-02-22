@@ -24,11 +24,33 @@ textarea {
 }
 html,
 body {
+    padding-top: 30px;
+    padding-bottom:0;
     margin: 0;
-    height: 100%;
+    height: 101%;
     background: linear-gradient(to bottom, #000066 -68%, #3366ff 100%);
     color: white;
 }
 .table{
     color:white;
+}
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
 }

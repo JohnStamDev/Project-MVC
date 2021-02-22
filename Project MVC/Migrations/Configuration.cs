@@ -25,8 +25,13 @@ namespace Project_MVC.Migrations
                new Trainer{ID= 5,FirstName="Steven",LastName="Tyler",Subject="SQL"},
                new Trainer{ID= 6,FirstName="Evlis",LastName="Presley",Subject="Swift"},
                new Trainer{ID= 7,FirstName="Axl",LastName="Rose",Subject="Java"},
-               new Trainer{ID= 8,FirstName="Jim",LastName="Morrison",Subject="Python"}
-
+               new Trainer{ID= 8,FirstName="Jim",LastName="Morrison",Subject="Python"},
+               new Trainer{ID= 9,FirstName="Alana",LastName="Washington",Subject="SQL"},
+               new Trainer{ID= 10,FirstName="Zoro",LastName="Allan",Subject="Swift"},
+               new Trainer{ID= 11,FirstName="Alice",LastName="Cooper",Subject="SQL"},
+               new Trainer{ID= 12,FirstName="Jason",LastName="Derulo",Subject="Python"},
+               new Trainer{ID= 13,FirstName="Chris",LastName="Jameson",Subject="Javascript"},
+               new Trainer{ID= 14,FirstName="Ozzy",LastName="Osbourne",Subject="C#"}
            };
             context.Trainers.AddOrUpdate(trainers.ToArray());
         }
