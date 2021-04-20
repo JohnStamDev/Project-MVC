@@ -1,4 +1,4 @@
-### Shcool Trainer Project C# ###9
+### Shcool Trainer Project C# ###
 
 # First MVC Project
 Connected with MS SQL server
